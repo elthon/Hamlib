@@ -50,7 +50,7 @@ dnl Beware of duplication should a backend directory include both rig and
 dnl rotor definitions, e.g. "dummy".  Optional backends will not be listed
 dnl here but will be added later, e.g. "winradio".
 BACKEND_LIST="adat alinco aor barrett dorji drake dummy flexradio icom icmarine jrc kachina kenwood kit lowe pcr prm80 racal rft rs skanti tapr tentec tuner uniden wj yaesu"
-ROT_BACKEND_LIST="amsat ars celestron cnctrk easycomm ether6 fodtrack gs232a heathkit m2 meade rotorez sartek spid ts7400 prosistel"
+ROT_BACKEND_LIST="amsat ars celestron cnctrk easycomm ether6 fodtrack gs232a heathkit m2 meade rotorez sartek spid ts7400 prosistel pelco"
 
 dnl See README.release on setting these values
 # Values given to -version-info when linking.  See libtool documentation.
@@ -788,6 +788,7 @@ prosistel/Makefile
 dorji/Makefile
 barrett/Makefile
 meade/Makefile
+pelco/Makefile
 hamlib.pc])
 
 AC_OUTPUT

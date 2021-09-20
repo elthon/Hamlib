@@ -82,7 +82,7 @@ DEFINE_INITROT_BACKEND(ether6);
 DEFINE_INITROT_BACKEND(cnctrk);
 DEFINE_INITROT_BACKEND(prosistel);
 DEFINE_INITROT_BACKEND(meade);
-
+DEFINE_INITROT_BACKEND(pelco);
 /**
  *  \def ROT_BACKEND_LIST
  *  \brief Static list of rotator models.
@@ -119,6 +119,7 @@ static struct
     { ROT_CNCTRK, ROT_BACKEND_CNCTRK, ROT_FUNCNAMA(cnctrk) },
     { ROT_PROSISTEL, ROT_BACKEND_PROSISTEL, ROT_FUNCNAMA(prosistel) },
     { ROT_MEADE, ROT_BACKEND_MEADE, ROT_FUNCNAMA(meade) },
+    { ROT_PELCO, ROT_BACKEND_PELCO, ROT_FUNCNAMA(pelco) },
     { 0, NULL }, /* end */
 };
 

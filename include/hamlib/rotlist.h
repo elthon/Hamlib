@@ -361,6 +361,11 @@
 #define ROT_BACKEND_MEADE "meade"
 #define ROT_MODEL_MEADE ROT_MAKE_MODEL(ROT_MEADE, 1)
 
+#define ROT_PELCO 19
+#define ROT_BACKEND_PELCO "pelco"
+#define ROT_MODEL_PELCO ROT_MAKE_MODEL(ROT_PELCO, 1)
+
+
 
 /**
  *  \typedef typedef int rot_model_t
